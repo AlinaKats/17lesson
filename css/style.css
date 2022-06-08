@@ -1,0 +1,169 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	/* по умолчанию */
+	/* font-size: 16px;  */
+}
+body {
+	line-height: 1;
+	color: #fff;
+	background-color: #333;
+	font-family: "Roboto";
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0px auto;
+}
+/* ------------------------------ */
+
+/* Условные ПК, ноуты и телевизоры */
+/* 1050 из макета (контейнер + отступы) */
+@media (max-width: 1050px) {
+}
+/* Условные планшеты */
+@media (max-width: 991.98px) {
+}
+/* Условные мобилки */
+@media (max-width: 767.98px) {
+}
+
+[class*="__container"] {
+	max-width: 1050px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+/* №1 */
+@media (max-width: 1050px) {
+	[class*="__container"] {
+		/* max-width: 970px; */
+	}
+}
+
+.header {
+	padding: 26px 0 30px 0;
+	background: rgb(21, 167, 153);
+}
+.header__container {
+}
+.header__info {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	margin: 0px 0 27px 0px;
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+	margin: 0 10px 0 0; /*padding безопасности */
+}
+.logo {
+}
+.logo__image {
+	display: block;
+}
+.header__contacts {
+}
+.contacts-header {
+	display: flex;
+	column-gap: 30px;
+}
+.contacts-header-item {
+	display: flex;
+	flex-direction: row;
+	max-height: 40px;
+}
+.contacts-header__icon {
+	margin: 0 10px 0 0;
+}
+.contacts-header__content {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.15px;
+	line-height: 22px;
+	color: #ffffff;
+}
+.contacts-header__hours {
+}
+.contacts-header__text {
+}
+.contacts-header__hours {
+}
+.contacts-header__tel {
+}
+.contacts-header__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f2726f;
+	border-radius: 8px;
+	padding: 0 34px;
+}
+.contacts-header__link {
+}
+.header__menu {
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 10px 48px 10px 40px;
+}
+.menu {
+}
+.menu__items {
+	display: flex;
+	color: #000;
+	flex-wrap: wrap;
+}
+.items-menu__item {
+	margin: 0 37px 0 0;
+}
+.items-menu__item_red-arrow {
+}
+.item-menu__icons {
+	display: flex;
+	justify-content: flex-end;
+}
+.item-menu__title {
+}
+.item-menu__search {
+}
